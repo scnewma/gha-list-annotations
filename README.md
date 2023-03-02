@@ -6,6 +6,8 @@ Use the Github API to list annotations for a particular repository and optionall
 
 Run this directly with [Deno](https://deno.land/).
 
+Uses your `GITHUB_TOKEN` for authentication.
+
 ```
 $ deno run -A https://raw.githubusercontent.com/scnewma/gha-list-annotations/main/main.ts OWNER/REPO [COMMIT]
 ```
